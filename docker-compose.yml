@@ -10,7 +10,7 @@ services:
       - SYS_ADMIN
       - SYS_RESOURCE
     environment:
-      - NB_SETUP_KEY=1732b66106e8a09229806b0f96e19a0fe878d02432570de5fb92162945af69d4
+      - NB_SETUP_KEY=f6d07546-cb0b-4193-960f-0a343a04f56a
     volumes:
       - netbird-client:/etc/netbird
     restart: unless-stopped
